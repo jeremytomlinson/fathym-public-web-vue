@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <div id="header">
+      <img src="./assets/pimpire_logo.png" alt="PIMPIRE" />
+  </div>
+  <HelloWorld msg="Vue.js + TypeScript App" />
 </template>
 
 <script lang="ts">
@@ -22,6 +25,20 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin:0px auto;
+  min-height:100%;
 }
+
+#header 
+{
+	margin:0;
+	text-align: center;
+	padding:10px 0px 10px 0px;
+}
+
+    #header img 
+    {
+        max-width: 100%;
+        height: auto;
+    }
 </style>
