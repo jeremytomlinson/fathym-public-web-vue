@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <div id="header">
-      <img src="./assets/pimpire_logo.png" alt="PIMPIRE" />
+      <img src="./assets/photos_logo.png" alt="PHOTOS" />
   </div>
   <HelloWorld msg="Vue.js + TypeScript App" />
 </template>
